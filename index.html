@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Movies Website | Animated Landing Page</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">R~Movies</a>
+        <ul class="nav">
+            <li><a href="#"><i class='bx bxs-home'></i></a></li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Trends</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class='bx bx-search'></i>
+        </div>
+
+    </header>
+
+    <div class="banner">
+
+        <div class="content the-little-mermaid active">
+            <img src="./images/the-little-mermaid-title.png" alt="" class="Movie-Title">
+            <h4>
+                <span>2023</span>
+                <span><i>12+</i></span>
+                <span>2h 12min</span>
+                <span>Romance</span>
+            </h4>
+            <p>The 2023 movie The Little Mermaid is about a young mermaid who makes a deal with a sea witch to trade her voice for human legs. Ariel, the youngest and most defiant daughter of King Triton, wants to explore the world above water and falls in love with Prince Eric. 
+                However, the deal with the sea witch, Ursula, comes with a catch. 
+                If Ariel doesn't get a true love's kiss within three days, Ursula will trap her forever. 
+               
+            </p>
+            <div class="button">
+                <a href="#"><i class='bx bx-play' ></i> Watch</a>
+                <a href="#"><i class='bx bx-plus'></i> My List</a>
+            </div>
+        </div>
+        
+        <div class="content bg-65">
+            <img src="./images/the-65-title.png" alt="" class="Movie-Title">
+            <h4>
+                <span>2022</span>
+                <span><i>15+</i></span>
+                <span>1h 42min</span>
+                <span>Action</span>
+            </h4>
+            <p>The 2023 American science fiction film 65 follows the story of a pilot and a child who crash land on an unknown planet and must navigate their way through prehistoric terrain. The film stars Adam Driver as the pilot, Mills, and Ariana Greenblatt as the child, Koa.
+            </p>
+            <div class="button">
+                <a href="#"><i class='bx bx-play' ></i> Watch</a>
+                <a href="#"><i class='bx bx-plus'></i> My List</a>
+            </div>
+        </div>
+
+        <div class="content the-covenant">
+            <img src="./images/the-covenant-title.png" alt="" class="Movie-Title">
+            <h4>
+                <span>2012</span>
+                <span><i>12+</i></span>
+                <span>2h 02min</span>
+                <span>War/Action</span>
+            </h4>
+            <p>The Covenant is a 2023 American action drama film about a US Army Sergeant and his Afghan interpreter fighting the Taliban. The movie stars Jake Gyllenhaal as Sergeant John Kinley and Dar Salim as Ahmed. Guy Ritchie co-wrote, produced, and directed the film.
+            </p>
+            <p>The movie follows Kinley and Ahmed during the war in Afghanistan. When Kinley is wounded, Ahmed risks his life and the lives of his family to help him. As a result, Ahmed ends up on the Taliban's Most Wanted list. 
+                The movie is rated R for violence, language, and brief drug content. Some say it's a great little thriller that connects well and has good explanations for things that happen in the film.</p>
+            <div class="button">
+                <a href="#"><i class='bx bx-play' ></i> Watch</a>
+                <a href="#"><i class='bx bx-plus'></i> My List</a>
+            </div>
+        </div>
+        
+        <div class="content the-black-demon">
+            <img src="./images/the-black-demon-title.png" alt="" class="Movie-Title">
+            <h4>
+                <span>2023</span>
+                <span><i>16+</i></span>
+                <span>1h 40min</span>
+                <span>Thriller</span>
+            </h4>
+            <p>The Black Demon is a 2023 science fiction thriller movie about a family stranded on a crumbling oil rig in Baja who face off against a vengeful megalodon shark. The movie stars Josh Lucas, Fernanda Urrejola, and Julio Cesar Cedillo, and was directed by Adrian Grünberg. It debuted on Prime Video on August 22, 2023, and producers are already discussing a sequel.
+            </p>
+            <div class="button">
+                <a href="#"><i class='bx bx-play' ></i> Watch</a>
+                <a href="#"><i class='bx bx-plus'></i> My List</a>
+            </div>
+        </div>
+        
+        <div class="content the-tank">
+            <img src="./images/the-tank-title.png" alt="" class="Movie-Title">
+            <h4>
+                <span>2023</span>
+                <span><i>15+</i></span>
+                <span>2h 01min</span>
+                <span>Horror</span>
+            </h4>
+            <p>The Tank is a 2023 horror movie about a family who inherits a coastal property in Oregon and accidentally releases an ancient creature. The movie was written and directed by Scott Walker and stars Matt Whelan, Lucianne Buchanan, and Zara Nausbaum.
+            </p>
+            <div class="button">
+                <a href="#"><i class='bx bx-play' ></i> Watch</a>
+                <a href="#"><i class='bx bx-plus'></i> My List</a>
+            </div>
+        </div>
+        
+
+        
+
+
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item"
+                onClick="changeBg('../images/movies/bg-little-mermaid.jpg', 'the-little-mermaid' , '1');"
+                >
+                    <img src="./images/movies/the-little-mermaid.jpeg" alt="">
+                </div>
+
+                <div class="carousel-item"
+                onClick="changeBg('../images/movies/bg-the-covenant.jpeg', 'the-covenant' , '2');">
+                    <img src="./images/movies/the-covenant.jpg" alt="">
+                </div>
+                
+                <div class="carousel-item "
+                onclick="changeBg('../images/movies/bg-65.jpeg', 'bg-65' , '3');">
+                    <img src="./images/movies/65.jpg" alt="">
+                </div>
+
+                
+                <div class="carousel-item "
+                onClick="changeBg('../images/movies/bg-the-black-demon.jpeg', 'the-black-demon' , '4');">
+                    <img src="./images/movies/the-black-demon.jpg" alt="">
+                </div>
+                
+                <div class="carousel-item"
+                onClick="changeBg('../images/movies/bg-the-tank.jpeg', 'the-tank' , '5');">
+                    <img src="./images/movies/the-tank.jpeg" alt="">
+                </div>
+                
+            </div>
+        </div>
+
+
+
+        <a href="#" class="play" onClick="toggleVideo();"><i class='bx bx-play-circle'></i> Watch Trailer</a>
+
+        <ul class="sic">
+            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+        </ul>
+    </div>
+    <div class="trailer">
+        <video src="./assets/GUY RITCHIE_S THE COVENANT _ Official Trailer(1080P_HD).mp4" 
+        muted 
+        controls="true" 
+        autoplay></video>
+        <img class="close" 
+        src="./images/close.png" 
+        alt=""
+        onClick="toggleVideo();">
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+        </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
